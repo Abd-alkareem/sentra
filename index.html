@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sentra</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- minu buttun -->
+    <i class="fas fa-bars minu-btn d-flex d-md-none"></i>
+    <!-- minu buttun -->
+
+    <!-- start sidebar -->
+    <div class="sidebar">
+      <div class="logo">
+        <div>
+          <span>sen</span>
+          <span>tra</span>
+        </div>
+      </div>
+      <ul class="links">
+        <li><a href="#home" class="active">home</a></li>
+        <li><a href="#featured">featured</a></li>
+        <li><a href="#projects">resent work</a></li>
+        <li><a href="#presentation">presentation</a></li>
+        <li><a href="#blog">blog entris</a></li>
+        <li><a href="#contact">contact us</a></li>
+      </ul>
+      <div class="social">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin-in"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fab fa-behance"></i>
+      </div>
+    </div>
+    <!-- end sidebar -->
+
+    <!-- start home section  -->
+    <div class="home sec" id="home">
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/slide_1.jpg" class="d-block w-100" alt="..." />
+            <div class="info middel-in-sm">
+              <span class="title">Lorem ipsum dolor sit.</span>
+              <p class="">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Veritatis provident mollitia eaque iste consequatur?
+              </p>
+              <button class="more">Learn more</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slide_2.jpg" class="d-block w-100" alt="..." />
+            <div class="info middel-in-sm">
+              <span class="title">Lorem ipsum dolor sit amet.</span>
+              <p class="">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate, saepe officiis sapiente harum rem corrupti odit
+                dignissimos nam?
+              </p>
+              <button class="more">Discover more</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slide_3.jpg" class="d-block w-100" alt="..." />
+            <div class="info middel-in-sm">
+              <span class="title">Lorem ipsum dolor sit.</span>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
+                voluptates commodi consectetur veniam dolores doloribus aliquam.
+                Atque accusantium blanditiis totam esse!
+              </p>
+              <button class="more">say more</button>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev cont"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next cont"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- end home section  -->
+
+    <!-- start featured section -->
+    <div class="featured section sec" id="featured">
+      <div class="main-holder">
+        <div class="controle">
+          <div class="logo">
+            <span>Featured</span>
+            <span>Places </span>
+          </div>
+          <div class="title">
+            <p>
+              Praesent pellentesque efficitur magna, sed pellentesque neque
+              malesuada vitae
+            </p>
+          </div>
+          <div class="buttuns">
+            <i class="fas fa-angle-left" id="prev"></i>
+            <i class="fas fa-angle-right" id="next"></i>
+          </div>
+        </div>
+        <div class="wepper">
+          <div class="slider">
+            <div class="item">
+              <div class="image">
+                <img src="./img/featured_1.jpg" alt="" />
+                <span>Continue Reading</span>
+              </div>
+              <div class="info">
+                <h5>Lorem, ipsum dolor.</h5>
+                <span>Proin et spain</span>
+                <p>
+                  #1- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Omnis dicta autem soluta repudiandae. Ipsam quaerat officiis
+                  aspernatur. Tempora, labore dolorem?
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="./img/featured_2.jpg" alt="" />
+                <span>Continue Reading</span>
+              </div>
+              <div class="info">
+                <h5>Lorem, ipsum dolor.</h5>
+                <span>Proin et spain</span>
+                <p>
+                  #1- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Omnis dicta autem soluta repudiandae. Ipsam quaerat officiis
+                  aspernatur. Tempora, labore dolorem?
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="./img/featured_3.jpg" alt="" />
+                <span>Continue Reading</span>
+              </div>
+              <div class="info">
+                <h5>Lorem, ipsum dolor.</h5>
+                <span>Proin et spain</span>
+                <p>
+                  #1- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Omnis dicta autem soluta repudiandae. Ipsam quaerat officiis
+                  aspernatur. Tempora, labore dolorem?
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="./img/featured_2.jpg" alt="" />
+                <span>Continue Reading</span>
+              </div>
+              <div class="info">
+                <h5>Lorem, ipsum dolor.</h5>
+                <span>Proin et spain</span>
+                <p>
+                  #1- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Omnis dicta autem soluta repudiandae. Ipsam quaerat officiis
+                  aspernatur. Tempora, labore dolorem?
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="./img/featured_1.jpg" alt="" />
+                <span>Continue Reading</span>
+              </div>
+              <div class="info">
+                <h5>Lorem, ipsum dolor.</h5>
+                <span>Proin et spain</span>
+                <p>
+                  #1- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Omnis dicta autem soluta repudiandae. Ipsam quaerat officiis
+                  aspernatur. Tempora, labore dolorem?
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="./img/featured_3.jpg" alt="" />
+                <span>Continue Reading</span>
+              </div>
+              <div class="info">
+                <h5>Lorem, ipsum dolor.</h5>
+                <span>Proin et spain</span>
+                <p>
+                  #1- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Omnis dicta autem soluta repudiandae. Ipsam quaerat officiis
+                  aspernatur. Tempora, labore dolorem?
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="./img/featured_1.jpg" alt="" />
+                <span>Continue Reading</span>
+              </div>
+              <div class="info">
+                <h5>Lorem, ipsum dolor.</h5>
+                <span>Proin et spain</span>
+                <p>
+                  #1- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Omnis dicta autem soluta repudiandae. Ipsam quaerat officiis
+                  aspernatur. Tempora, labore dolorem?
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="./img/featured_3.jpg" alt="" />
+                <span>Continue Reading</span>
+              </div>
+              <div class="info">
+                <h5>Lorem, ipsum dolor.</h5>
+                <span>Proin et spain</span>
+                <p>
+                  #1- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Omnis dicta autem soluta repudiandae. Ipsam quaerat officiis
+                  aspernatur. Tempora, labore dolorem?
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="./img/featured_2.jpg" alt="" />
+                <span>Continue Reading</span>
+              </div>
+              <div class="info">
+                <h5>Lorem, ipsum dolor.</h5>
+                <span>Proin et spain</span>
+                <p>
+                  #1- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Omnis dicta autem soluta repudiandae. Ipsam quaerat officiis
+                  aspernatur. Tempora, labore dolorem?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end featured section -->
+
+    <!-- start projects section -->
+    <div class="projects section sec" id="projects">
+      <div class="main-holder">
+        <div class="controle">
+          <div class="logo">
+            <span>Recent</span>
+            <span>Projects</span>
+          </div>
+          <div class="title">
+            <p>
+              Praesent pellentesque efficitur magna, sed pellentesque neque
+              malesuada vitae.
+            </p>
+          </div>
+        </div>
+        <div class="slider">
+          <div class="row m-0 h-100">
+            <div class="item col-12 h-55 col-lg-7">
+              <!-- <img src="./img/portfolio_1.jpg" alt="" /> -->
+            </div>
+            <div class="col-12 h-55 col-lg-4 ms-lg-5 p-0 d-flex flex-column">
+              <div class="item w-100 h-45">
+                <!-- <img src="./img/portfolio_2.jpg" alt="" /> -->
+              </div>
+              <div class="item w-100 h-45 mt-auto">
+                <!-- <img src="./img/portfolio_3.jpg" alt="" /> -->
+              </div>
+            </div>
+            <div class="col-12 h-40 mt-auto p-0 row m-0">
+              <div class="item col-12 col-lg-4 h-70">
+                <!-- <img src="./img/portfolio_4.jpg" alt="" /> -->
+              </div>
+              <div
+                class="item col-12 col-lg-7 ms-lg-5 h-70"
+                style="max-height: 200px"
+              >
+                <!-- <img src="./img/portfolio_5.jpg" alt="" /> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end projects section -->
+
+    <!-- start presentation sectoin -->
+    <div class="presentation sec" id="presentation">
+      <div class="main-holder">
+        <h1>this is <span>company</span> presentation</h1>
+        <p class="title">
+          Praesent pellentesque efficitur magna, sed pellentesque neque
+          malesuada vitae
+        </p>
+        <p class="description">
+          In eget ipsum sed lorem vehicula luctus. Curabitur non dolor rhoncus,
+          hendrerit justo sit amet, vestibulum turpis. Pellentesque id auctor
+          tellus, vel ultricies augue. Duis condimentum aliquet blandit. Fusce
+          rhoncus et eros ut pharetra. Phasellus convallis ultricies ligula ac
+          gravida.
+        </p>
+        <button>Continue Reading</button>
+        <div class="video"></div>
+      </div>
+    </div>
+    <!-- end presentation sectoin -->
+
+    <!-- start blog section -->
+    <div class="blog section sec" id="blog">
+      <div class="main-holder">
+        <div class="controle">
+          <div class="logo w-20">
+            <span>Blog</span>
+            <span>Entries</span>
+          </div>
+          <div class="title">
+            <p>
+              Curabitur hendrerit mauris mollis ipsum vulputate rutrum.
+              Phasellus luctus odio eget dui imperdiet.
+            </p>
+          </div>
+        </div>
+        <div class="slider">
+          <div class="select">
+            <span class="active">july 2018</span>
+            <span>lune 2018</span>
+            <span>may 2018</span>
+            <span>april 2018</span>
+          </div>
+          <div class="show-part">
+            <div class="slide active">
+              <div class="item">
+                <div class="image">
+                  <img src="./img/blog_1.jpg" alt="" />
+                </div>
+                <div class="info">
+                  <h1>Integer ultrices augue</h1>
+                  <span>25 July 2018</span>
+                  <p>
+                    Nam vel egestas nisi. Nullam lobortis magna at enim
+                    venenatis luctus. Nam finibus, mauris eu dictum iaculis,
+                    dolor tortor cursus quam, in volutpat augue lectus sed
+                    magna. Integer mollis lorem quis ipsum maximus finibus.
+                    Continue Reading
+                  </p>
+                  <button>Continue Reading</button>
+                </div>
+              </div>
+              <div class="item">
+                <div class="image">
+                  <img src="./img/blog_2.jpg" alt="" />
+                </div>
+                <div class="info">
+                  <h1>Cras commodo odio ut</h1>
+                  <span>16 July 2018</span>
+                  <p>
+                    Nam vel egestas nisi. Nullam lobortis magna at enim
+                    venenatis luctus. Nam finibus, mauris eu dictum iaculis,
+                    dolor tortor cursus quam, in volutpat augue lectus sed
+                    magna. Integer mollis lorem quis ipsum maximus finibus.
+                    Continue Reading
+                  </p>
+                  <button>Continue Reading</button>
+                </div>
+              </div>
+              <div class="item">
+                <div class="image">
+                  <img src="./img/blog_3.jpg" alt="" />
+                </div>
+                <div class="info">
+                  <h1>Sed at massa turpis</h1>
+                  <span>10 July 2018</span>
+                  <p>
+                    Nam vel egestas nisi. Nullam lobortis magna at enim
+                    venenatis luctus. Nam finibus, mauris eu dictum iaculis,
+                    dolor tortor cursus quam, in volutpat augue lectus sed
+                    magna. Integer mollis lorem quis ipsum maximus finibus.
+                    Continue Reading
+                  </p>
+                  <button>Continue Reading</button>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="item">
+                <div class="image">
+                  <img src="./img/blog_1.jpg" alt="" />
+                </div>
+                <div class="info">
+                  <h1>Integer ultrices augue</h1>
+                  <span>25 July 2018</span>
+                  <p>
+                    Nam vel egestas nisi. Nullam lobortis magna at enim
+                    venenatis luctus. Nam finibus, mauris eu dictum iaculis,
+                    dolor tortor cursus quam, in volutpat augue lectus sed
+                    magna. Integer mollis lorem quis ipsum maximus finibus.
+                    Continue Reading
+                  </p>
+                  <button>Continue Reading</button>
+                </div>
+              </div>
+              <div class="item">
+                <div class="image">
+                  <img src="./img/blog_2.jpg" alt="" />
+                </div>
+                <div class="info">
+                  <h1>Cras commodo odio ut</h1>
+                  <span>16 July 2018</span>
+                  <p>
+                    Nam vel egestas nisi. Nullam lobortis magna at enim
+                    venenatis luctus. Nam finibus, mauris eu dictum iaculis,
+                    dolor tortor cursus quam, in volutpat augue lectus sed
+                    magna. Integer mollis lorem quis ipsum maximus finibus.
+                    Continue Reading
+                  </p>
+                  <button>Continue Reading</button>
+                </div>
+              </div>
+              <div class="item">
+                <div class="image">
+                  <img src="./img/blog_3.jpg" alt="" />
+                </div>
+                <div class="info">
+                  <h1>Sed at massa turpis</h1>
+                  <span>10 July 2018</span>
+                  <p>
+                    Nam vel egestas nisi. Nullam lobortis magna at enim
+                    venenatis luctus. Nam finibus, mauris eu dictum iaculis,
+                    dolor tortor cursus quam, in volutpat augue lectus sed
+                    magna. Integer mollis lorem quis ipsum maximus finibus.
+                    Continue Reading
+                  </p>
+                  <button>Continue Reading</button>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="item">
+                <div class="image">
+                  <img src="./img/blog_1.jpg" alt="" />
+                </div>
+                <div class="info">
+                  <h1>Integer ultrices augue</h1>
+                  <span>25 July 2018</span>
+                  <p>
+                    Nam vel egestas nisi. Nullam lobortis magna at enim
+                    venenatis luctus. Nam finibus, mauris eu dictum iaculis,
+                    dolor tortor cursus quam, in volutpat augue lectus sed
+                    magna. Integer mollis lorem quis ipsum maximus finibus.
+                    Continue Reading
+                  </p>
+                  <button>Continue Reading</button>
+                </div>
+              </div>
+              <div class="item">
+                <div class="image">
+                  <img src="./img/blog_2.jpg" alt="" />
+                </div>
+                <div class="info">
+                  <h1>Cras commodo odio ut</h1>
+                  <span>16 July 2018</span>
+                  <p>
+                    Nam vel egestas nisi. Nullam lobortis magna at enim
+                    venenatis luctus. Nam finibus, mauris eu dictum iaculis,
+                    dolor tortor cursus quam, in volutpat augue lectus sed
+                    magna. Integer mollis lorem quis ipsum maximus finibus.
+                    Continue Reading
+                  </p>
+                  <button>Continue Reading</button>
+                </div>
+              </div>
+              <div class="item">
+                <div class="image">
+                  <img src="./img/blog_3.jpg" alt="" />
+                </div>
+                <div class="info">
+                  <h1>Sed at massa turpis</h1>
+                  <span>10 July 2018</span>
+                  <p>
+                    Nam vel egestas nisi. Nullam lobortis magna at enim
+                    venenatis luctus. Nam finibus, mauris eu dictum iaculis,
+                    dolor tortor cursus quam, in volutpat augue lectus sed
+                    magna. Integer mollis lorem quis ipsum maximus finibus.
+                    Continue Reading
+                  </p>
+                  <button>Continue Reading</button>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="item">
+                <div class="image">
+                  <img src="./img/blog_1.jpg" alt="" />
+                </div>
+                <div class="info">
+                  <h1>Integer ultrices augue</h1>
+                  <span>25 July 2018</span>
+                  <p>
+                    Nam vel egestas nisi. Nullam lobortis magna at enim
+                    venenatis luctus. Nam finibus, mauris eu dictum iaculis,
+                    dolor tortor cursus quam, in volutpat augue lectus sed
+                    magna. Integer mollis lorem quis ipsum maximus finibus.
+                    Continue Reading
+                  </p>
+                  <button>Continue Reading</button>
+                </div>
+              </div>
+              <div class="item">
+                <div class="image">
+                  <img src="./img/blog_2.jpg" alt="" />
+                </div>
+                <div class="info">
+                  <h1>Cras commodo odio ut</h1>
+                  <span>16 July 2018</span>
+                  <p>
+                    Nam vel egestas nisi. Nullam lobortis magna at enim
+                    venenatis luctus. Nam finibus, mauris eu dictum iaculis,
+                    dolor tortor cursus quam, in volutpat augue lectus sed
+                    magna. Integer mollis lorem quis ipsum maximus finibus.
+                    Continue Reading
+                  </p>
+                  <button>Continue Reading</button>
+                </div>
+              </div>
+              <div class="item">
+                <div class="image">
+                  <img src="./img/blog_3.jpg" alt="" />
+                </div>
+                <div class="info">
+                  <h1>Sed at massa turpis</h1>
+                  <span>10 July 2018</span>
+                  <p>
+                    Nam vel egestas nisi. Nullam lobortis magna at enim
+                    venenatis luctus. Nam finibus, mauris eu dictum iaculis,
+                    dolor tortor cursus quam, in volutpat augue lectus sed
+                    magna. Integer mollis lorem quis ipsum maximus finibus.
+                    Continue Reading
+                  </p>
+                  <button>Continue Reading</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end blog section -->
+
+    <!-- start contact section -->
+    <div class="contact section sec" id="contact">
+      <div class="main-holder">
+        <div class="controle">
+          <div class="logo">
+            <span>Contact</span>
+            <span>Sentra</span>
+          </div>
+          <div class="title">
+            <p>
+              Curabitur hendrerit mauris mollis ipsum vulputate rutrum.
+              Phasellus luctus odio eget dui imperdiet.
+            </p>
+          </div>
+        </div>
+        <form action="#" id="contact">
+          <input type="text" placeholder="Your name..." />
+          <input type="email" placeholder="Your email..." />
+          <input type="text" placeholder="Subject..." />
+          <textarea name="" id="" placeholder="Your message..."></textarea>
+          <input type="submit" value="Send message Now" />
+        </form>
+      </div>
+    </div>
+    <!-- end contact section -->
+
+    <!-- start footer -->
+    <footer class="sec">
+      <div class="main-holder">
+        <p class="fs-4 text-center w-100 m-0 p-4">
+          Free Template Made By "ABD-ALKAREEM"
+        </p>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <!--  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

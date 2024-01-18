@@ -1,0 +1,4 @@
+-logic side bar
+-logic projects
+-minfide the project with bootstrap
+-minfide the project with classes
