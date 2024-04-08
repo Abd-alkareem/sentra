@@ -115,6 +115,12 @@ body {
     min-width: 300px;
 }
 
+@media(max-width:767px) {
+    .section .main-holder .controle .title {
+        min-width: 100% !important;
+    }
+}
+
 .section .main-holder .controle .title p {
     font-weight: 500;
     color: #333;
@@ -364,6 +370,13 @@ body {
     position: absolute;
     right: 30px;
     top: 150px;
+}
+
+@media(max-width:767px) {
+    .home .info {
+        width: 90%;
+        /* transform: translateX(); */
+    }
 }
 
 .home .info .title {
